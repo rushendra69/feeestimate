@@ -1,0 +1,23 @@
+{
+  "overview": "A freelance contract fee estimator that uses bottom-up pricing — helping freelancers quote fair, profitable rates by accounting for taxes, expenses, complexity, and scope creep. Built for TIGOY.com/FeeEstimate.",
+  "features": [
+    "Bottom-up pricing calculator with complexity multiplier slider",
+    "Tax transparency: shows exact tax set-aside and take-home profit",
+    "Pie chart breakdown of Tax vs Profit vs Expenses",
+    "Industry presets (Graphic Design, Software Dev, Consulting)",
+    "Safety margin toggle for scope creep protection",
+    "Currency selector (USD, EUR, GBP)",
+    "Copy-to-clipboard quote export",
+    "Advertisement banners with external image loading",
+    "Persistent hourly rate via localStorage"
+  ],
+  "category": "productivity",
+  "tags": [
+    "freelance",
+    "calculator",
+    "pricing",
+    "finance",
+    "dashboard"
+  ],
+  "last_updated": "2026-04-23T04:18:37.093Z"
+}
