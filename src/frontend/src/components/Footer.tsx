@@ -28,21 +28,8 @@ export default function Footer() {
 
           {/* Copyright */}
           <p className="text-sm text-slate-400 text-center">
-            © 2025 TIGOY.com | FeeEstimate. All rights reserved.
+            © 2025 TIGOY.com | Huncity.com. All rights reserved.
           </p>
-        </div>
-
-        {/* Caffeine branding */}
-        <div className="mt-4 text-center text-xs text-slate-400">
-          © {new Date().getFullYear()}. Built with love using{" "}
-          <a
-            href={`https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(typeof window !== "undefined" ? window.location.hostname : "")}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="hover:text-indigo-600 transition-colors duration-200 underline underline-offset-2"
-          >
-            caffeine.ai
-          </a>
         </div>
       </div>
     </footer>

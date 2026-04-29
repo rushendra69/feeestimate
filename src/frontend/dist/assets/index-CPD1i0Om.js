@@ -18477,39 +18477,21 @@ const NAV_LINKS$1 = [
   { label: "Contact Us", href: "https://hubcity.net/contacthubcity.html" }
 ];
 function Footer() {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "mt-auto bg-white border-t border-slate-200 py-8", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "max-w-6xl mx-auto px-6", children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row items-center justify-between gap-4", children: [
-      /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap items-center justify-center gap-6", children: NAV_LINKS$1.map((link) => /* @__PURE__ */ jsxRuntimeExports.jsx(
-        "a",
-        {
-          href: link.href,
-          target: "_blank",
-          rel: "noopener noreferrer",
-          className: "text-sm text-slate-500 hover:text-indigo-600 transition-colors duration-200",
-          "data-ocid": `footer.${link.label.toLowerCase().replace(/\s+/g, "_")}.link`,
-          children: link.label
-        },
-        link.href
-      )) }),
-      /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-400 text-center", children: "© 2025 TIGOY.com | FeeEstimate. All rights reserved." })
-    ] }),
-    /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "mt-4 text-center text-xs text-slate-400", children: [
-      "© ",
-      (/* @__PURE__ */ new Date()).getFullYear(),
-      ". Built with love using",
-      " ",
-      /* @__PURE__ */ jsxRuntimeExports.jsx(
-        "a",
-        {
-          href: `https://caffeine.ai?utm_source=caffeine-footer&utm_medium=referral&utm_content=${encodeURIComponent(typeof window !== "undefined" ? window.location.hostname : "")}`,
-          target: "_blank",
-          rel: "noopener noreferrer",
-          className: "hover:text-indigo-600 transition-colors duration-200 underline underline-offset-2",
-          children: "caffeine.ai"
-        }
-      )
-    ] })
-  ] }) });
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("footer", { className: "mt-auto bg-white border-t border-slate-200 py-8", children: /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "max-w-6xl mx-auto px-6", children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: "flex flex-col md:flex-row items-center justify-between gap-4", children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("div", { className: "flex flex-wrap items-center justify-center gap-6", children: NAV_LINKS$1.map((link) => /* @__PURE__ */ jsxRuntimeExports.jsx(
+      "a",
+      {
+        href: link.href,
+        target: "_blank",
+        rel: "noopener noreferrer",
+        className: "text-sm text-slate-500 hover:text-indigo-600 transition-colors duration-200",
+        "data-ocid": `footer.${link.label.toLowerCase().replace(/\s+/g, "_")}.link`,
+        children: link.label
+      },
+      link.href
+    )) }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("p", { className: "text-sm text-slate-400 text-center", children: "© 2025 TIGOY.com | Huncity.com. All rights reserved." })
+  ] }) }) });
 }
 const INDUSTRY_PRESETS = [
   {
